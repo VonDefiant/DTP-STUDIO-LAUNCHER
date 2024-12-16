@@ -1,13 +1,13 @@
 {
   "name": "dtpstudiolauncher",
-  "version": "2.2.1",
+  "version": "1.0.1",
   "productName": "DTP Studio Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "VonDefiant",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/VonDefiant/DTP-STUDIOS-LAUNCHER",
+  "homepage": "https://github.com/VonDefiant/DTP-STUDIO-LAUNCHER",
   "bugs": {
-    "url": "https://github.com/VonDefiant/DTP-STUDIOS-LAUNCHER/issues"
+    "url": "https://github.com/VonDefiant/DTP-STUDIO-LAUNCHER/issues"
   },
   "private": true,
   "main": "index.js",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VonDefiant/DTP-STUDIOS-LAUNCHER.git"
+    "url": "git+https://github.com/VonDefiant/DTP-STUDIO-LAUNCHER.git"
   }
 }
