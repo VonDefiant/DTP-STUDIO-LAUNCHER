@@ -1,6 +1,6 @@
 {
   "name": "dtpstudiolauncher",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "productName": "DTP Studio Launcher",
   "description": "Modded Minecraft Launcher",
   "author": "VonDefiant",
@@ -9,7 +9,7 @@
   "bugs": {
     "url": "https://github.com/VonDefiant/DTP-STUDIO-LAUNCHER/issues"
   },
-  "private": true,
+"private": true,
   "main": "index.js",
   "scripts": {
     "start": "electron .",
@@ -37,8 +37,7 @@
     "jquery": "^3.7.1",
     "lodash.merge": "^4.6.2",
     "semver": "^7.6.3",
-    "toml": "^3.0.0",
-    "uuid": "^11.0.3"
+    "toml": "^3.0.0"
   },
   "devDependencies": {
     "electron": "^33.2.1",
@@ -47,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VonDefiant/DTP-STUDIO-LAUNCHER.git"
+    "url": "git+https://github.com/VonDefiant/Zerocraft-launcher.git"
   }
 }
