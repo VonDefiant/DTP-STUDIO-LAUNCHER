@@ -30,7 +30,10 @@ jobs:
       - name: Install Dependencies
         run: npm ci
         shell: bash
-
+        
+      - name: Install uuid
+        run: npm install uuid
+        
       - name: Build
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
