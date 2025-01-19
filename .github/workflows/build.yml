@@ -1,13 +1,6 @@
 name: Build
 
-on:
-  push:
-    branches:
-      - main
-  release:
-    types: [published]
-  workflow_dispatch:
-
+on: push
 
 jobs:
   release:
@@ -46,5 +39,4 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run dist
         shell: bash
-
         
